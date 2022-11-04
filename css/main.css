@@ -169,6 +169,7 @@
 }
 
 .section-two {
+  height: 660px;
   background-color: #FAFAFA
 }
 
@@ -246,4 +247,58 @@
   margin-left: 120px;
   color: #ED4C5C;
   text-decoration: none;
+}
+
+.section-three-warapper {
+  width: 80%;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.card3-number {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.08);
+  margin-top: 170px;
+  margin-left: 160px;
+}
+
+.card3-img {
+  width: 80px;
+  height: 80px;
+  margin-top: -59px;
+  margin-left: 210px;
+}
+
+.card3-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+  margin-left: 150px;
+}
+
+.card3-description {
+  width: 191px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  margin-left: 150px;
 }
