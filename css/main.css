@@ -36,7 +36,7 @@
 .nabar-img {
   width: 172px;
   height: 29px;
-  margin-top: 58px;
+  margin-top: 50px;
 }
 
 .navbar-item {
@@ -77,6 +77,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 0 auto;
 }
 
 .btn-text {
@@ -115,6 +116,7 @@
   width: 160px;
   height: 50px;
   background: #FFFFFF;
+  border-color: #FFF;
   border-radius: 6px;
   font-family: 'Lato';
   font-style: normal;
@@ -123,6 +125,7 @@
   line-height: 17px;
   text-transform: uppercase;
   margin-top: 39px;
+  color: #ED4C5C;
 }
 
 .container {
@@ -251,6 +254,7 @@
 
 .section-three-warapper {
   width: 80%;
+  height: 500px;
 }
 
 .container3 {
@@ -301,4 +305,120 @@
   text-align: center;
   color: #000000;
   margin-left: 150px;
+}
+
+.section-four {
+  width: 100%;
+  background-color: #ED4C5C;
+}
+
+.container4 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card4-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+  margin-top: 122px;
+  margin-left: 165px;
+}
+
+.card4-description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 24px;
+  margin-left: 165px;
+}
+
+.img1 {
+  margin-top: 44px;
+  margin-left: 165px;
+}
+
+.img2 {
+  margin: 0 25px;
+}
+
+.card4-img {
+  width: 445px;
+  height: 311px;
+  margin-top: 94px;
+}
+
+.section-five-wrapper {
+  width: 100%;
+}
+
+.container5 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+  margin-top: 117px;
+  margin-left: 176px;
+}
+
+.card5-description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #000000;
+  margin-top: 50px;
+  margin-left: 176px;
+}
+
+.Name {
+  width: 255px;
+  height: 60px;
+  margin-top: 117px;
+}
+
+.last-name {
+  width: 255px;
+  height: 60px;
+  margin-top: 117px;
+  margin-left: 20px;
+}
+
+.phone-number {
+  width: 540px;
+  height: 60px;
+  margin-top: 24px;
+}
+
+.select-service {
+  width: 540px;
+  height: 60px;
+  margin-top: 24px;
+}
+
+.submit-btn {
+  width: 160px;
+  height: 50px;
+  background-color: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  border-radius: 6px;
+  color: #FFF;
+  margin-top: 27px;
 }
