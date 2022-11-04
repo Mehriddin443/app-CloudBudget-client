@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+  height: 782px;
+  background-image: url(/images/work\ img.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.back-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+
+.container {
+  width: 80%;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 165px;
+
+}
+
+.nabar-img {
+  width: 172px;
+  height: 29px;
+  margin-top: 58px;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin: 58px 10px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.navbar-end {
+  display: flex;
+  margin-top: 50px;
+}
+
+.navbar-btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn-text {
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.cloudBudget {
+  text-align: center;
+  color: #FFF;
+}
+
+.cloud-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+
+.cloud-description {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 39px;
+}
+
+.cloud-btn {
+  width: 160px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
